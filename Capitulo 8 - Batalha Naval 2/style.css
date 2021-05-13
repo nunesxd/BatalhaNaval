@@ -1,0 +1,45 @@
+#container-principal {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+#area-mensagem {
+	flex: 15%;
+	margin: 25px 0  0 50px;
+}
+
+#container-tabela-form {
+	flex: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.coordenada, .area-jogo {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.coordenada {
+	border-style: hidden;
+	font-size: 24px;
+}
+
+.area-jogo {
+	background-color: #48acda;
+}
+
+tr, td {
+	border: 2px solid black;
+}
+
+td { 
+	width: 94px; 
+	height: 94px;
+}
+
+table {
+	border-collapse: separate;
+}
